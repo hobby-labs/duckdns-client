@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 main() {
     cd "$( dirname "${BASH_SOURCE[0]}" )"
 
@@ -30,7 +28,6 @@ main() {
         sleep $(shuf -i1-5 -n1)
     done
 }
-
 
 main "$@" || exit 1
 
