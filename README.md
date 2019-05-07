@@ -2,7 +2,7 @@
 This is a client of duckdns.org used at my home server.
 
 # Usage
-Take your domains and token from duckdns.org.
+Take your domains and token from [Duck DNS](https://www.duckdns.org "https://www.duckdns.org").
 Then write down your token at `config`.
 ```
 TOKEN=xxxxxxxxxxxxxxxxx       # <- Fill out your token here
